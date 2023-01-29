@@ -30,15 +30,14 @@ public class EnderecoController {
 		@Autowired
 		private EnderecoRepository enderecoRepository;
 		
-		//verificar
-		/*@GetMapping("/pessoas-endereco/{pessoaId}")
+		@GetMapping("/pessoas-endereco/{pessoaId}")
 		public ResponseEntity<List<Endereco>> getAllEnderecosByPessoaId(@PathVariable(value = "PESSOA_ID") Long pessoaId) {
 			if (!pessoaRepository.existsById(pessoaId)) {
 		    	throw new Error("Erro ao encontrar Pessoa");
 		    }
 			List<Endereco> enderecos = enderecoRepository.findByPessoaId(pessoaId);
 		    return new ResponseEntity<>(enderecos, HttpStatus.OK);
-		}*/
+		}
 		
 		@GetMapping("/enderecos/{id}")
 		public ResponseEntity<Endereco> getEnderecosById(@PathVariable(value = "id") Long id) {
