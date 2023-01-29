@@ -1,0 +1,8 @@
+Qualidade de código
+
+1.	Durante a implementação de uma nova funcionalidade de software solicitada, quais critérios você avalia e implementa para garantia de qualidade de software?
+R: Como essa foi minha primeira API, eu pensei em 3 fatos, a API está realizando o que foi solicitado?, é de fácil entendimento pra quem vai me avaliar?, e a API está funcionando sem imprevistos?
+Me utilizei do Postman para poder realizar os testes da API, e até o momento observado tudo estava dentro do previsto.  
+
+2.	Em qual etapa da implementação você considera a qualidade de software?
+R: Desde o início da implementação, pois, devemos focar em implementar o código tendo isso em mente, e claro sempre mantendo as boas práticas.
